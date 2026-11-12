@@ -1,0 +1,1 @@
+/* Kept as a compatibility entry point for pages that still reference profile.js. */

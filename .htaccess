@@ -1,0 +1,10 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(app|database|docs|tools|Assets|\.git)(/|$) - [F,NC,L]
+</IfModule>
+
+<FilesMatch "^(?:\.env|\.gitignore|composer\.(?:json|lock)|phpunit\.xml(?:\.dist)?)$">
+    Require all denied
+</FilesMatch>

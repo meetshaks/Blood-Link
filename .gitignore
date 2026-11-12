@@ -1,0 +1,11 @@
+/app/config/config.php
+/database/bl.sql
+/app/logs/*
+!/app/logs/.gitkeep
+/public/uploads/*
+!/public/uploads/.htaccess
+!/public/uploads/avatars/.htaccess
+/.env
+.DS_Store
+Thumbs.db
+*.log
